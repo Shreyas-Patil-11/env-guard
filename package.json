@@ -1,0 +1,37 @@
+{
+  "name": "@shreyas-patil/env-guard",
+  "version": "1.0.0",
+  "description": "Runtime .env validation with schema definition, type coercion, and auto-generated .env.example",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "generate-example": "node src/cli.js"
+  },
+  "bin": {
+    "env-guard": "./src/cli.js"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "validation",
+    "dotenv",
+    "schema",
+    "config"
+  ],
+  "author": "your-name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
