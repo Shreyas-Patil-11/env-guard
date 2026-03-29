@@ -1,7 +1,7 @@
 {
   "name": "@shreyas-patil/env-guard",
-  "version": "1.0.0",
-  "description": "Runtime .env validation with schema definition, type coercion, and auto-generated .env.example",
+  "version": "1.1.0",
+  "description": "Runtime .env validation — typed, zero-deps, with coercion, async custom validators, and .env.example generation",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js"
@@ -19,10 +19,27 @@
     "validation",
     "dotenv",
     "schema",
-    "config"
+    "config",
+    "coercion",
+    "typed",
+    "zero-deps",
+    "cli",
+    "async"
   ],
-  "author": "your-name",
+  "author": {
+    "name": "Shreyas Patil",
+    "email": "shreyaspatil1311@gmail.com",
+    "url": "https://github.com/Shreyas-Patil-11/"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shreyas-Patil-11/env-guard"
+  },
+  "homepage": "https://github.com/Shreyas-Patil-11/env-guard#readme",
+  "bugs": {
+    "url": "https://github.com/Shreyas-Patil-11/env-guard/issues"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   },
